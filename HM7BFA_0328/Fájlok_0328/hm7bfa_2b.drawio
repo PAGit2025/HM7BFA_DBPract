@@ -1,0 +1,40 @@
+<mxfile host="Electron">
+  <diagram name="Oldal-1" id="TnFAKMCb6kCj3DJvWx-E">
+    <mxGraphModel dx="1414" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uOAUDzMf-8a3bLzRdMru-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" value="OKTATÓ&#xa;neptunkód (PK)&#xa;név&#xa;tanszék" vertex="1">
+          <mxGeometry height="160" width="240" x="40" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="uOAUDzMf-8a3bLzRdMru-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" value="HALLGATÓ&#xa;neptunkód (PK)&#xa;név&#xa;szül.d&#xa;tankör&#xa;irsz&#xa;város&#xa;utca&#xa;hsz" vertex="1">
+          <mxGeometry height="160" width="240" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="uOAUDzMf-8a3bLzRdMru-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" value="TÁRGY&#xa;kód (PK)&#xa;megnevezés&#xa;kredit&#xa;oktató (FK)" vertex="1">
+          <mxGeometry height="160" width="240" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uOAUDzMf-8a3bLzRdMru-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" value="HALLGAT&#xa;hallgató (PK, FK)&#xa;tárgy (PK, FK)&#xa;félév&#xa;vizsgajegy" vertex="1">
+          <mxGeometry height="160" width="240" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="uOAUDzMf-8a3bLzRdMru-71" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" target="uOAUDzMf-8a3bLzRdMru-69" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="120" as="sourcePoint" />
+            <mxPoint x="350" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOAUDzMf-8a3bLzRdMru-72" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" target="uOAUDzMf-8a3bLzRdMru-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOAUDzMf-8a3bLzRdMru-74" edge="1" parent="1" source="uOAUDzMf-8a3bLzRdMru-69" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uOAUDzMf-8a3bLzRdMru-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="240" as="sourcePoint" />
+            <mxPoint x="520" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
